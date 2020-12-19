@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  This is my personal page that i maked using some of my knowledges in web tools
+ This is my personal page that i created using some of my knowledge in web tools
 </h4>
 
 
