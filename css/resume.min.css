@@ -178,6 +178,12 @@ a:hover {
     color: #ffffff;
 }
 
+.subheading a:active,
+.subheading a:focus,
+.subheading a:hover {
+    color: #8133ca;
+}
+
 .progress-bar {
     background-color: #8133ca;
 }
