@@ -28,8 +28,7 @@
 })(jQuery); // End of use strict
 
 // Dynamic Age
-const today = new Date();
-const birthday = new Date("2001/03/11");
-const year = today.getFullYear();
-const myAge = Math.floor(Math.abs(today - birthday) / 1000 / 60 / 60 / 24 / 365);
+const birthday = new Date("2001/03/08");
+const myAge = Math.floor((Date.now() - birthday) / (31557600000));
 document.getElementById("age").innerHTML = myAge;
+console.log("Parabéns !! Você achou um easter egg do meu portifólio. Me mande uma mensagem :)");
